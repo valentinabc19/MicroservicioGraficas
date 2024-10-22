@@ -65,17 +65,17 @@ graficas/
         
         **En profesoresModel.py**
         
-        - Para la función `obtener_correo_profesor`:  http://localhost:3005/correoprof/{*usuario*}
+        - Para la función `obtener_correo_profesor`:  http://localhost:3005/correoprof/{usuario}
         
         **En estudiantesModel.py**
         
-        - Para la función `obtener_correo_estudiante`: http://localhost:3005/CorreoEstudiante/{*usuario*}
+        - Para la función `obtener_correo_estudiante`: http://localhost:3005/CorreoEstudiante/{usuario}
         - Para la función `obtener_informacion_estudiante`: http://localhost:3005/estudiantes
         
         **En cursosModel.py**
         
-        - Para la función `obtener_rendimiento_estudiantes`: http://localhost:3007/cursos/rendimiento/{*correoProf*}
-        - Para la función `obtener_notas_estudiante`: http://localhost:3007/cursos/notas/{*correoEstudiante*}
+        - Para la función `obtener_rendimiento_estudiantes`: http://localhost:3007/cursos/rendimiento/{correoProf}
+        - Para la función `obtener_notas_estudiante`: http://localhost:3007/cursos/notas/{correoEstudiante}
         - Para la función `obtener_notas_estudiantes`: http://localhost:3007/cursos
 2. **Instalación de dependencias:**
     - Ejecuta `pip install flask requests pandas plotly Flask_cors` para instalar las dependencias.
